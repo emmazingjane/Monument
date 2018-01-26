@@ -117,6 +117,7 @@ button {
   padding: 17px 20px 17px 20px;
   text-decoration: none;
   border: solid black 1px;
+  transform: rotate(0.5turn);
 }
 
 input {
@@ -154,6 +155,13 @@ form {
 
 .email {
 	width: 48%;
+}
+
+.hamburger {
+	background-color: white;
+	font-size: 27px;
+	padding: 10px 20px;
+	display: none;
 }
 
 

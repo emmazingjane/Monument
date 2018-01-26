@@ -1,0 +1,90 @@
+html, body {
+ height: 100%;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	color: #44545E;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-transform: uppercase;	
+	background-color: #FFF;
+	width: 100%;
+}
+
+nav a {
+	color: #ADD8E6;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
+	margin: 1em 1em;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+header {
+	color: white;
+	background-image: url("https://git.generalassemb.ly/raw/sf-wdi-43/schedule/master/curriculum/week-01/week-one-project/solution-code/images/home_header_bg.jpg?token=AAAj-4Fhhp5s06hDuUhoGxcRTKzP17JSks5adOnjwA%3D%3D");
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	padding: 10%;
+	font-size: 16px;
+	background-repeat: no-repeat;
+	height: 20em;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+
+}
+
+div {
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 54.4px;
+	line-height: 1.5;
+
+}
+
+.flex {
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+	width: 30%;
+}
+
+article {
+	width: 100%;
+	background-color: #D5F1F5;
+	text-align: center;
+	padding: 4em;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: 
+}
+
+#gallery {
+	column-count: 3;
+	max-width: 
+
+}
