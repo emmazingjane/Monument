@@ -145,6 +145,7 @@ form {
 	justify-content: space-between;
 	display: block;
 	align-content: space-around;
+
 }
 
 textarea {
@@ -165,7 +166,7 @@ form button {
 }
 
 .col {
-	width: 30%;
+	width: 33%;
 	border: 1px solid #CCCCCC;
 }
 
@@ -176,6 +177,7 @@ form button {
 
 #gallery {
 	column-count: 3;
+	justify-content: space-around;
 }
 
 .hamburger {
@@ -192,6 +194,16 @@ form button {
 	padding-top: 3em;
 	border-top: 1px solid #000;
 	width: 100%;
+}
+
+button:hover {
+	background-color: #ADD8E6;
+	color: #FFF;
+}
+
+nav a:hover {
+	background-color: #ADD8E6;
+	color: #FFF;
 }
 
 @media only screen and (max-width: 560px) {
