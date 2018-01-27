@@ -7,7 +7,8 @@ html, body {
 }
 
 html {
-	font-size: 15px;
+	font-size: 16px;
+	line-height: 1.618em;
 }
 
 body {
@@ -132,7 +133,7 @@ h5 {
 	text-align: center;
 	text-transform: uppercase;
 	max-width: 100%;
-	font-size: 3em;
+	font-size: 1em;
 }
 
 
@@ -156,6 +157,12 @@ form {
 	width: 48%;
 }
 
+.submit {
+	width: 100%;
+	height: 3em;
+	padding: 1em;
+}
+
 .hamburger {
 	background-color: white;
 	font-size: 27px;
@@ -172,6 +179,7 @@ form {
 	div {
 		flex-direction: column;
 	}
+	
 	.hamburger {
 		display: block;
 	}
