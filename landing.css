@@ -17,6 +17,10 @@ body {
 	line-height: 1.618em;
 }
 
+p {
+	font-family: 'Lato', sans-serif;
+}
+
 nav {
 	display: flex;
 	flex-direction: row;
@@ -49,6 +53,10 @@ header {
 	height: 20em;
 }
 
+header h2 {
+	font-size: 1em;
+}
+
 section {
 	display: flex;
 	flex-direction: column;
@@ -56,7 +64,6 @@ section {
 }
 
 div {
-	text-align: left;
 	padding-top: 0;
 	padding-bottom: 54.4px;
 	line-height: 1.5;
@@ -110,9 +117,9 @@ footer {
 }
 
 button {
-  color: #FFF;
+  color: #000;
   font-size: 20px;
-  background: #ADD8E6;
+  background: #FFF;
   padding: 17px 20px 17px 20px;
   text-decoration: none;
   border: solid black 1px;
@@ -132,7 +139,7 @@ form {
 	text-transform: uppercase;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: space-between;
 	display: block;
 	align-content: space-around;
 }
@@ -144,6 +151,7 @@ textarea {
 	height: 100px;
 	text-align: center;
 	font-size: 20px;
+	border: 1px solid #CCCCCC;
 }
 
 form button {
@@ -153,18 +161,14 @@ form button {
 	color: black;
 }
 
-.name {
+.col {
 	width: 30%;
-
+	border: 1px solid #CCCCCC;
 }
 
 .column {
 	width: 30%;
 	column-count: 3;
-}
-
-.email {
-	width: 29%;
 }
 
 #gallery {
@@ -179,4 +183,10 @@ form button {
 	font-size: 50px;
 	padding: 10px;
 	display: block;
+}
+
+.copyright {
+	padding-top: 3em;
+	border-top: 1px solid #000;
+	width: 100%;
 }
