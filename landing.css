@@ -51,6 +51,7 @@ header {
 	font-size: 2em;
 	background-repeat: no-repeat;
 	height: 20em;
+	background-attachment: fixed;
 }
 
 header h2 {
